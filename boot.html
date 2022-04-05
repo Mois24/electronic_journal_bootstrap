@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="strap.css">
+<title>Document</title>
+</head>
+<body>
+  
+    <header class="p-3 bg-green text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start menu">
+            <img class="menu1" src="pic/user-graduate-solid.svg" alt="graduate" width="40" height="40">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-white menu1">Attendance</a></li>
+              <li><a href="#" class="nav-link px-2 text-grey menu1">Shedule</a></li>
+              <li><a href="#" class="nav-link px-2 text-grey menu1">Homework</a></li>
+            </ul>
+            <div class="three_pic"> 
+            <img class="pic" src="pic/bell-solid.svg" alt="bell" width="30" height="30">
+            <i><img class="pic" src="pic/user-circle-solid.svg" alt="user" width="30" height="30"></i>   
+            <i><img src="pic/door-open-solid.svg" alt="door" width="30" height="30"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container-sm data">23 April, Tuesday</div>
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="#">1 lesson</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-turquoise" href="#">2 lesson</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-turquoise" href="#">3 lesson</a>
+            </li>
+            <li class="nav-item text-turquoise">
+              <a class="nav-link text-turquoise" href="#">4 lesson</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-turquoise" href="#">5 lesson</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-turquoise" href="#">6 lesson</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="#">7 lesson</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-turquoise" href="#">8 lesson</a>
+            </li>
+          </ul>
+        </div>
+        <div class="homework">
+          <div class="name">
+            <div class="name1">Group</div>
+            <div class="name1">Subject</div>
+            <div class="name2">Lesson topic</div>
+            <div>Homework</div>
+          </div>
+          <form class="row g-3">
+            <div class="col-auto">
+              <label for="staticEmail2" class="visually-hidden">Group</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="ABC-1234">
+            </div>
+            <div class="col-auto">
+              <label for="staticEmail2" class="visually-hidden">Subject</label>
+              <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="HTML&CSS">
+            </div>
+            <div class="col-auto">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="password" class="form-control" id="inputPassword2">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btnBg">Add homework</button>
+            </div>
+          </form>
+        </div>
+        <table class="table caption-top">
+          <caption></caption>
+          <thead>
+            <tr class="btnBg">
+              <th scope="col"></th>
+              <th scope="col">Name</th>
+              <th scope="col">GPA</th>
+              <th scope="col">Is present</th>
+              <th scope="col">Test</th>
+              <th scope="col">Classwork</th>
+              <th scope="col">Comment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Ashton Hickman</td>
+              <td>9</td>
+              <td><div class="form-check form-check-inline">
+                <input class="form-check-input checkBg1" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1"></label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input checkBg2" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2"></label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input checkBg3" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2"></label>
+              </div></td>
+              <td><select class="form-select" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option></td>
+              <td><select class="form-select" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option></td>
+              <td>
+                <div>
+                  <textarea class="form-control txtArea" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Mischa Roberson</td>
+              <td>9</td>
+              <td>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input checkBg1" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input checkBg2" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input checkBg3" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2"></label>
+                </div>
+              </td>
+              <td>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>-</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </td>
+              <td>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>-</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </td>
+              <td>
+                <div>
+                <textarea class="form-control txtArea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Jeydon Metcalfe</td>
+              <td>8</td>
+              <td><div class="form-check form-check-inline">
+                <input class="form-check-input checkBg1" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1"></label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input checkBg2" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2"></label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input checkBg3" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2"></label>
+              </div></td>
+              <td><select class="form-select" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option></td>
+              <td><select class="form-select" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option></td>
+              <td>
+                <div>
+                <textarea class="form-control txtArea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Gary Jacobson</td>
+              <td>8</td>
+              <td><div class="form-check form-check-inline">
+                <input class="form-check-input checkBg1" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1"></label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input checkBg2" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2"></label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input checkBg3" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2"></label>
+              </div></td>
+              <td><select class="form-select" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option></td>
+              <td><select class="form-select" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option></td>
+              <td class="grab">
+                <div>
+                <textarea class="form-control txtArea" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+</body>
+</html>

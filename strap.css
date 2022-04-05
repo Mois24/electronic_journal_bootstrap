@@ -1,0 +1,71 @@
+.bg-green {
+    background-color: rgb(0, 139, 139);
+}
+.text-grey {
+    color: rgb(192, 192, 192);
+}
+.text-turquoise {
+    color: rgb(0, 139, 139);
+}
+.three_pic {
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: -100px;   
+}
+.pic {
+    margin-right: 30px;
+}
+.menu {
+    display: flex; 
+    margin-left: -100px; 
+}
+.menu1 {
+    margin-right: 30px;
+}
+.data {
+    text-align: center;;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.homework {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.name {
+    display: flex;
+    font-size: 12px;
+    color: rgb(211, 211, 211);
+}
+.name1 {
+    margin-right: 160px;
+}
+.name2 {
+    margin-right: 150px;
+}
+.btnBg {
+    background: rgb(68, 155, 155);
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.checkBg1 {
+    border-color: green;
+}
+.checkBg2 {
+    border-color: yellow;
+}
+.checkBg3 {
+    border-color: tomato;
+}
+.form-select {
+    width: 60px;
+}
+.grab {
+    width: 300px;
+}
+.txtArea {
+    height: 20px;
+    width: 300px;
+}
+
+
